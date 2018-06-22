@@ -1,0 +1,83 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Kasia\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Kasia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Kasia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Kasia\AppData\Roaming\npm
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\Kasia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:131036:13)
+      at emitNone (events.js:106:13)
+      at Interface.emit (events.js:208:7)
+      at Interface._ttyWrite (readline.js:774:16)
+      at ReadStream.onkeypress (readline.js:158:10)
+      at emitTwo (events.js:126:13)
+      at ReadStream.emit (events.js:214:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1010:36)
+
+npm manifest: 
+  {
+    "name": "react_weather_app",
+    "version": "1.0.0",
+    "description": "React weather app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "webpack-dev-server",
+      "watch": "webpack --watch"
+    },
+    "dependencies": {
+      "babel-plugin-dynamic-import-webpack": "1.0.1",
+      "babel-plugin-transform-decorators-legacy": "1.3.4",
+      "babel-register": "6.24.1",
+      "compression": "1.6.2",
+      "cors": "2.8.3",
+      "express": "4.15.3",
+      "lodash": "4.17.4",
+      "preact": "8.1.0",
+      "preact-compat": "3.16.0",
+      "prop-types": "15.5.10",
+      "react": "15.5.4",
+      "react-addons-perf": "15.4.2",
+      "react-dom": "15.5.4",
+      "react-router-dom": "4.1.1",
+      "styled-components": "2.0.0",
+      "webpack": "2.6.1",
+      "webpack-dev-middleware": "1.10.2",
+      "webpack-hot-middleware": "2.18.0"
+    },
+    "devDependencies": {
+      "babel-core": "6.24.1",
+      "babel-eslint": "7.2.3",
+      "babel-loader": "7.0.0",
+      "babel-plugin-dynamic-import-node": "1.0.2",
+      "babel-plugin-syntax-dynamic-import": "6.18.0",
+      "babel-plugin-transform-class-properties": "6.24.1",
+      "babel-plugin-transform-es2015-modules-commonjs": "6.24.1",
+      "babel-preset-env": "1.5.1",
+      "babel-preset-react": "6.24.1",
+      "flow-bin": "0.47.0",
+      "moxios": "0.4.0",
+      "nodemon": "1.11.0",
+      "react-hot-loader": "3.0.0-beta.6",
+      "react-test-renderer": "15.5.4",
+      "webpack-dev-server": "2.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
